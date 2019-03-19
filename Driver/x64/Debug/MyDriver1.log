@@ -1,0 +1,37 @@
+﻿  Building 'MyDriver1' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(402,5): warning MSB8038: Spectre mitigation is enabled but Spectre mitigated libraries are not found.  Verify that the Visual Studio Workload includes the Spectre mitigated libraries.  See https://aka.ms/Ofhn4c for more information.
+  Stamping x64\Debug\MyDriver1.inf
+  Stamping [Version] section with DriverVer=03/18/2019,18.5.9.947
+  Driver.c
+c:\users\tate\source\repos\mydriver1\mydriver1\driver.c(7): warning C4459: declaration of 'DriverObject' hides global declaration
+  c:\users\tate\source\repos\mydriver1\mydriver1\driver.c(3): note: see declaration of 'DriverObject'
+c:\users\tate\source\repos\mydriver1\mydriver1\driver.c(14): warning C4459: declaration of 'DriverObject' hides global declaration
+  c:\users\tate\source\repos\mydriver1\mydriver1\driver.c(3): note: see declaration of 'DriverObject'
+c:\users\tate\source\repos\mydriver1\mydriver1\driver.c(17): warning C4133: 'function': incompatible types - from 'char [15]' to 'PCWSTR'
+c:\users\tate\source\repos\mydriver1\mydriver1\driver.c(18): warning C4133: 'function': incompatible types - from 'char [19]' to 'PCWSTR'
+c:\users\tate\source\repos\mydriver1\mydriver1\driver.c(20): warning C4133: 'function': incompatible types - from 'PDRIVER_OBJECT *' to 'PDEVICE_OBJECT *'
+c:\users\tate\source\repos\mydriver1\mydriver1\driver.c(14): warning C4100: 'RegistryPath': unreferenced formal parameter
+c:\users\tate\source\repos\mydriver1\mydriver1\driver.c(29): warning C4459: declaration of 'DriverObject' hides global declaration
+  c:\users\tate\source\repos\mydriver1\mydriver1\driver.c(3): note: see declaration of 'DriverObject'
+c:\users\tate\source\repos\mydriver1\mydriver1\driver.c(29): warning C4100: 'DriverObject': unreferenced formal parameter
+c:\users\tate\source\repos\mydriver1\mydriver1\driver.c(37): warning C4459: declaration of 'DriverObject' hides global declaration
+  c:\users\tate\source\repos\mydriver1\mydriver1\driver.c(3): note: see declaration of 'DriverObject'
+c:\users\tate\source\repos\mydriver1\mydriver1\driver.c(37): warning C4100: 'DriverObject': unreferenced formal parameter
+  MyDriver1.vcxproj -> C:\Users\Tate\source\repos\MyDriver1\x64\Debug\MyDriver1.sys
+  Done Adding Additional Store
+  Successfully signed: C:\Users\Tate\source\repos\MyDriver1\x64\Debug\MyDriver1.sys
+  
+  .........................
+  Signability test complete.
+  
+  Errors:
+  None
+  
+  Warnings:
+  None
+  
+  Catalog generation complete.
+  C:\Users\Tate\source\repos\MyDriver1\x64\Debug\MyDriver1\mydriver1.cat
+  Done Adding Additional Store
+  Successfully signed: C:\Users\Tate\source\repos\MyDriver1\x64\Debug\MyDriver1\mydriver1.cat
+  
